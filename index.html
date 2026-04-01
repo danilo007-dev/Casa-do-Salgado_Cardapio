@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ponto do Salgado | Cardápio</title>
+<title>Casa do Salgado | Cardápio</title>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-<link rel="shortcut icon" href="images/images.jpeg" type="image/x-icon">
+<link rel="shortcut icon" href="images/casadosalgado-logo.png" type="image/x-icon">
 <style>
   :root {
     --amarelo: #F5C518;
@@ -61,14 +61,19 @@
   .logo-wrap {
     position: relative;
     z-index: 2;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
     margin-bottom: 2rem;
     animation: fadeUp 0.9s ease both;
   }
 
   .logo-wrap img {
-    width: 180px;
-    height: 180px;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
+    transform: scale(1.12);
     filter: drop-shadow(0 8px 32px rgba(245,197,24,0.35));
     border-radius: 50%;
   }
@@ -1392,16 +1397,16 @@
   <div class="hero-dots"></div>
 
   <div class="logo-wrap">
-    <img src="images/images.jpeg" alt="Logomarca Ponto do Salgado">
+    <img src="images/casadosalgado-logo.png" alt="Logomarca Casa do Salgado">
   </div>
 
   <p class="hero-tagline">Sabor de verdade desde sempre</p>
-  <h1 class="hero-title">Ponto do <span>Salgado</span></h1>
-  <p class="hero-sub">Av. Dr. Fernando Arens, 45 — Centro, Artur Nogueira - SP</p>
+  <h1 class="hero-title">Casa do <span>Salgado</span></h1>
+  <p class="hero-sub">R. Minas Gerais, Nº 165 - Jardim Brasil, Eng. Coelho - SP, 13165-000</p>
 
   <div class="hero-cta">
     <a class="btn-primary" href="#cardapio">Ver Cardápio</a>
-    <a class="btn-secondary" href="https://wa.me/5519992755549" target="_blank">Fazer Pedido</a>
+    <a class="btn-secondary" href="https://wa.me/5519996165367" target="_blank">Fazer Pedido</a>
   </div>
 
 </section>
@@ -1410,11 +1415,11 @@
 <div class="info-bar">
   <div class="info-item">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.67 2.18 2 2 0 012.66 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.69a16 16 0 006.4 6.4l1.06-1.06a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
-    <a href="tel:+5519992755549">(19) 99275-5549</a>
+    <a href="tel:+5519996165367">(19) 99616-5367</a>
   </div>
   <div class="info-item">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-    <span>Av. Dr. Fernando Arens, 45 — Centro, Artur Nogueira - SP</span>
+    <span>R. Minas Gerais, Nº 165 - Jardim Brasil, Eng. Coelho - SP, 13165-000</span>
   </div>
   <div class="info-item" id="status-badge">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
@@ -1554,10 +1559,10 @@
 
 <!-- FOOTER -->
 <footer>
-  <p>© 2025 <strong>Ponto do Salgado</strong> · Av. Dr. Fernando Arens, 45 — Centro, Artur Nogueira - SP</p>
+  <p>© 2025 <strong>Casa do Salgado</strong> · R. Minas Gerais, Nº 165 - Jardim Brasil, Eng. Coelho - SP, 13165-000</p>
   <p style="margin-top:0.5rem">
-    <a href="tel:+5519992755549">(19) 99275-5549</a> &nbsp;·&nbsp;
-    <a href="https://wa.me/5519992755549" target="_blank">WhatsApp</a>
+    <a href="tel:+5519996165367">(19) 99616-5367</a> &nbsp;·&nbsp;
+    <a href="https://wa.me/5519996165367" target="_blank">WhatsApp</a>
   </p>
 </footer>
 
@@ -1842,13 +1847,13 @@ function addComboToCart() {
 }
 
 const schedule = [
-  { dia: 'Segunda-feira',  open: true,  hora: '07:00 – 17:00' },
-  { dia: 'Terça-feira',    open: true,  hora: '07:00 – 17:00' },
-  { dia: 'Quarta-feira',   open: true,  hora: '07:00 – 17:00' },
-  { dia: 'Quinta-feira',   open: true,  hora: '07:00 – 17:00' },
-  { dia: 'Sexta-feira',    open: true,  hora: '07:00 – 17:00' },
-  { dia: 'Sábado',         open: true,  hora: '07:00 – 15:00' },
-  { dia: 'Domingo',        open: false, hora: 'Fechado' },
+  { dia: 'Segunda-feira',  open: true,  hora: '07:00 – 20:30' },
+  { dia: 'Terça-feira',    open: true,  hora: '07:00 – 20:30' },
+  { dia: 'Quarta-feira',   open: true,  hora: '07:00 – 20:30' },
+  { dia: 'Quinta-feira',   open: true,  hora: '07:00 – 20:30' },
+  { dia: 'Sexta-feira',    open: true,  hora: '07:00 – 20:30' },
+  { dia: 'Sábado',         open: true,  hora: '07:00 – 20:30' },
+  { dia: 'Domingo',        open: true,  hora: '07:00 – 19:30' },
 ];
 
 function renderHorarios() {
@@ -1877,9 +1882,8 @@ function updateStatus() {
   const hour = now.getHours() + now.getMinutes() / 60;
   let open = false;
   let closeHour = '';
-  if (day === 0) { open = false; }
-  else if (day === 6) { open = hour >= 7 && hour < 15; closeHour = '15h'; }
-  else { open = hour >= 7 && hour < 17; closeHour = '17h'; }
+  if (day === 0) { open = hour >= 7 && hour < 19.5; closeHour = '19h30'; }
+  else { open = hour >= 7 && hour < 20.5; closeHour = '20h30'; }
   const el = document.getElementById('status-text');
   if (open) {
     el.textContent = `Aberto agora · Fecha às ${closeHour}`;
@@ -2018,6 +2022,8 @@ function limparCarrinho() {
   cart = [];
   checkoutStep = 'review';
   checkoutObs = '';
+  renderCards();
+  renderPasteis();
   updateFab();
   renderDrawer();
 }
@@ -2361,7 +2367,7 @@ function finalizarPedido() {
   if (checkoutObs) msg += `\n\nObservações: ${checkoutObs}`;
 
   const encoded = encodeURIComponent(msg);
-  window.open(`https://wa.me/5519992755549?text=${encoded}`, '_blank');
+  window.open(`https://wa.me/5519996165367?text=${encoded}`, '_blank');
 }
 
 // ─── TOAST ───────────────────────────────────────────────────────
